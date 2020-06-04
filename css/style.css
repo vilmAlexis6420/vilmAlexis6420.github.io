@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+ 	box-sizing: border-box;
+}
+
+body {
+	font: 400 15px/1.2 "Lato", sans-serif;
+	background: #fc00ff;
+	background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+	background: linear-gradient(to right, #00dbde, #fc00ff);
+
+}
+
+.sidenav {
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 13000;s
+}
+
+.fs-item-container {
+	width: 50px;
+	text-align: center;
+	height: 50px;
+	color: white;
+	border-radius: 50%;
+	margin-bottom: 10px; 
+}
+
+.fs-item-container a {
+	color: white;
+	font-size: 20px;
+}
+.fs-item-container a i {
+	margin-top: 15px;
+}
+
+.fb {
+	background-color: #3b5998;
+}
+
+.messenger {
+	background-color: #0084ff;
+}
+
+.google {
+	background-color: #c71610;
+}
+
+.landing {
+	font-weight: 400;
+	font-size: 25pt;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background: rgba(0,0,0,.3);
+}
+
+.landing .landing-container {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.landing-container h1 {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+.landing-container p {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 12pt;
+	font-family: "Lato", sans-serif;
+}
+
+.landing-container h1 span {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #4cf02b;
+	color: transparent;
+	padding-top: 0;
+}
