@@ -1,0 +1,40 @@
+.mainpage {
+	font-weight: 400;
+	font-size: 25pt;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.mainpage .mainpage-container {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.mainpage-container h1 {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+.mainpage-container p {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 12pt;
+	font-family: "Lato", sans-serif;
+}
+
+.mainpage-container h1 span {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #4cf02b;
+	color: transparent;
+	padding-top: 0;
+}

@@ -9,17 +9,16 @@ body {
 	background: #fc00ff;
 	background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
 	background: linear-gradient(to right, #00dbde, #fc00ff);
-
 }
 
-.sidenav {
+.fixed-bot-nav {
 	position: fixed;
 	bottom: 0;
 	right: 15px;
-	z-index: 13000;s
+	z-index: 13000;
 }
 
-.fs-item-container {
+.fixed-bot-nav-item {
 	width: 50px;
 	text-align: center;
 	height: 50px;
@@ -28,11 +27,11 @@ body {
 	margin-bottom: 10px; 
 }
 
-.fs-item-container a {
+.fixed-bot-nav-item a {
 	color: white;
 	font-size: 20px;
 }
-.fs-item-container a i {
+.fixed-bot-nav-item a i {
 	margin-top: 15px;
 }
 
@@ -46,45 +45,4 @@ body {
 
 .google {
 	background-color: #c71610;
-}
-
-.landing {
-	font-weight: 400;
-	font-size: 25pt;
-	height: 100%;
-	width: 100%;
-	left: 0;
-	top: 0;
-	position: fixed;
-	background: rgba(0,0,0,.3);
-}
-
-.landing .landing-container {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-}
-
-.landing-container h1 {
-	margin: 0px;
-	padding: 0px;
-	text-align: right;
-}
-
-.landing-container p {
-	margin: 0px;
-	padding: 0px;
-	color: white;
-	font-size: 12pt;
-	font-family: "Lato", sans-serif;
-}
-
-.landing-container h1 span {
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #4cf02b;
-	color: transparent;
-	padding-top: 0;
 }
