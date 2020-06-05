@@ -1,14 +1,67 @@
 *,
 *::before,
 *::after {
- 	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
 	font: 400 15px/1.2 "Lato", sans-serif;
-	background: #fc00ff;
-	background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
-	background: linear-gradient(to right, #00dbde, #fc00ff);
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	text-align: center;
+	background-color: #89B7CC;
+}
+
+.navbar-bg-dark {
+	background: rgba(0,0,0,.8);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  overflow: hidden;
+  text-align: center;
+  /*background-color: #333;*/
+}
+
+.navbar ul li {
+	float: left;
+}
+
+.navbar ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover {
+	background-color: #fff;
+	color: #89B7CC;
+}
+
+.navbar ul .pull-right {
+	float: right;
+}
+
+.navbar ul .right-brand {
+	margin-right: 30px;
+	background: yellow;
+}
+
+.navbar ul .right-brand a {
+	color: black;
+	cursor: initial;
+	font-weight: bold;
 }
 
 .fixed-bot-nav {
