@@ -15,7 +15,7 @@ body {
 	width: 100%;
 	z-index: 1000;
 	text-align: center;
-	background-color: #89B7CC;
+	background: rgba(137, 183, 204,.8);
 }
 
 .navbar-bg-dark {

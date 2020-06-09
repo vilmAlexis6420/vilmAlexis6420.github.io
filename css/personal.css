@@ -4,23 +4,24 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-s
-.bgimg-1, .bgimg-2, .bgimg-3 {
+
+.bg-1, .bg-2, .bg-3 {
 	position: relative;
 	opacity: 0.65;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.bgimg-1 {
-	background-image: url("../images/5.jpg");
+
+.bg-1 {
+	background-image: url("../images/12.jpg");
 	min-height: 100%;
 }
 
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 80%;
   width: 100%;
   text-align: center;
   color: #000;
