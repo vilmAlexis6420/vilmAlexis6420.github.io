@@ -8,6 +8,54 @@ body {
 	font: 400 15px/1.2 "Lato", sans-serif;
 }
 
+.about-container {
+	width: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.about-column {
+	position: relative;
+  	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+}
+
+.one-fourth {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.one-half {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.three-fourth {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.four-fourth {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
 .navbar {
 	position: fixed;
 	top: 0;
@@ -15,7 +63,7 @@ body {
 	width: 100%;
 	z-index: 1000;
 	text-align: center;
-	background: rgba(137, 183, 204,.8);
+	background: rgba(137, 183, 204,1);
 }
 
 .navbar-bg-dark {
@@ -68,7 +116,7 @@ body {
 	position: fixed;
 	bottom: 0;
 	right: 15px;
-	z-index: 13000;
+	z-index: 10000;
 }
 
 .fixed-bot-nav-item {
@@ -98,4 +146,17 @@ body {
 
 .google {
 	background-color: #c71610;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	/*background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,0));*/
+}
+
+footer p {
+	margin-left: 40px;
+	/*padding: 5px;*/
+	font-size: 10pt;
 }
